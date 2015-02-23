@@ -15,7 +15,7 @@ module.exports = {
   connections: {
       studmateDbServerProd: {
         adapter: 'sails-mongo',
-        url: process.env.MONGOLAB_URI
+        url: process.env.MONGOSOUP_URL
       }
   },
 

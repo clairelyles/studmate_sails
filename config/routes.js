@@ -23,7 +23,9 @@ module.exports.routes = {
 
 "/": "PagesController.index",
 
-"post /api/match": "StudController.create",
+// "get /api/studs" : "MatchController.getStuds",
+
+"post /api/match": "MatchController.create",
 
 "post /api/auth": "AuthController.login",
 "delete /api/auth": "AuthController.logout",

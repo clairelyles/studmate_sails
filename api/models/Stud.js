@@ -52,7 +52,9 @@ module.exports = {
         name: matchObj.name,
         fee: matchObj.fee,
         breed: matchObj.breed,
-        picture: matchObj.picture
+        picture: matchObj.picture,
+        ownerName: matchObj.ownerName,
+        phoneNumber: matchObj.phoneNumber
       }
       return thing;
     }
@@ -60,4 +62,3 @@ module.exports = {
 
   }
 };
-
