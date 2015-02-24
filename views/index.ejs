@@ -1,20 +1,6 @@
 
 <div ng-app='Studmate'>
 
-  <div class="text-center">
-    <h2>Welcome to StudMate</h2>
-  </div>
-  <br>
-  <div class="container-fluid text-center" ng-controller="HomeCtrl">
-    <button ng-hide="currentUser" ng-click='showLogin()' class='btn btn-danger btn-sm'>Login / Signup  <span class='glyphicon glyphicon-lock'></span></button>
-    <button ng-show="currentUser" ng-click="logout()" class='btn btn-danger btn-sm'>Logout <span class='glyphicon glyphicon-camera'></span></button>
-    <hr />
-  </div>
-
-  <div class='container'>
-
-
     <ng-view></ng-view>
 
-  </div>
 </div>
