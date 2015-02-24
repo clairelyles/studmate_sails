@@ -35,5 +35,8 @@
     "url": "git://github.com/clairelyles/studmate_sails.git"
   },
   "author": "clairelyles",
-  "license": ""
+  "license": "",
+  "devDependencies": {
+    "gulp-preprocess": "^1.2.0"
+  }
 }
